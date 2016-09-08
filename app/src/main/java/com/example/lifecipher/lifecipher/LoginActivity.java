@@ -45,7 +45,7 @@ public class LoginActivity extends AppCompatActivity {
 
                     if (enPassword.equals(p_password)) {
                         Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                        intent.putExtra("password", enPassword);
+                        intent.putExtra("password", p_password);
                         startActivity(intent);
                     }
                 } catch (Exception e) {
